@@ -1,0 +1,23 @@
+{
+  "name": "product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "utilities": "github:SinaMN75/Utilities-nodejs#main"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.31",
+    "@types/sequelize": "^4.28.9",
+    "nodemon": "^2.0.7"
+  }
+}

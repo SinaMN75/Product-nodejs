@@ -1,0 +1,27 @@
+### CREATE PLACE
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "title": "ssdsdsd",
+  "description": "sdsdsdssdsdP"
+}
+
+### READ PRODUCTS
+GET http://localhost:3000/api/products
+
+### READ PRODUCT BY ID
+GET http://localhost:3000/api/products/8
+
+### UPDATE PRODUCT BY ID
+PUT http://localhost:3000/api/products/1
+Content-Type: application/json
+
+{
+  "description": "ueisdjsdsd"
+}
+
+
+
+### DELETE PLACE BY ID
+DELETE http://localhost:3000/api/products/4
