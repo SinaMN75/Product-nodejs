@@ -1,7 +1,6 @@
-const {sequelize} = require("utilities");
-const {db} = require("../utils");
+const {sequelize, database} = require("utilities");
 
-const Product = db.define("Product", {
+const Product = database.sequelize.define("Product", {
 	id: {
 		type: sequelize.INTEGER,
 		autoIncrement: true,
@@ -17,4 +16,6 @@ const Product = db.define("Product", {
 	},
 });
 
-module.exports = {Product};
+module.exports = {
+	Product,
+};
